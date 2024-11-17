@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>prog7</title>
+</head>
+
+<body>
+    <h1>Address</h1>
+    <form action="post">
+        <div>
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" autofocus pattern="[a-zA-Z0-9]+">
+        </div><br>
+
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div><br>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe my channel</label>
+        </div><br>
+
+        <div>
+            <label for="comment">Enter your comment</label><br>
+            <textarea name="comment" rows="4" cols="50" placeholder="Enter your comment here..."></textarea>
+        </div><br>
+
+        <div>
+            <select name="district">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Rajshahi">Rajshahi</option>
+            </select>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
